@@ -19,7 +19,7 @@ function App() {
       <button className="btn btn-primary" onClick={() => {
         setShowSale(! showSale )
       }}>
-        {showSale ? "showSale" : "Not Sale"}
+        {showSale ? "Show Sale" : "Show All Sale"}
       </button>
       {filterQueen.map((king) => (
         <div key={king.id}>
